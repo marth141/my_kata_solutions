@@ -1,0 +1,9 @@
+{application,test_space,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"test_space"},
+              {modules,['Elixir.CountBits','Elixir.Kata','Elixir.Solution',
+                        'Elixir.SplitStrings','Elixir.TestSpace',
+                        'Elixir.TestSpace.Application','Elixir.Whicharein']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.TestSpace.Application',[]}}]}.
